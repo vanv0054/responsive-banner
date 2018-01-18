@@ -22,24 +22,24 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-.img-flex {
-  position: relative;
-}
+  .img-flex {
+    position: relative;
+  }
 
-.content {
-  position: absolute;
-  top: 12em;
-  background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(28, 14, 0, 0));
-  width: 100%;
-  background-color: transparent;
-}
+  .content {
+    position: absolute;
+    top: 12em;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(28, 14, 0, 0));
+    width: 100%;
+    background-color: transparent;
+  }
 
-.btn-ghost {
-  border-color: #efefef;
-}
+  .btn-ghost {
+    border-color: #efefef;
+  }
 
-header {
-  max-height: 500px;
-}
+  header {
+    max-height: 500px;
+  }
 
 }
