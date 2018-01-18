@@ -1,6 +1,5 @@
 html {
   font-family: Georgia, serif;
-  max-height: 500px;
   color: #fff;
 }
 
@@ -23,13 +22,24 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+.img-flex {
+  position: relative;
+}
+
 .content {
+  position: absolute;
+  top: 25em;
   background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(28, 14, 0, 0));
   width: 100%;
+  background-color: transparent;
 }
 
 .btn-ghost {
   border-color: #efefef;
+}
+
+header {
+  max-height: 500px;
 }
 
 }
